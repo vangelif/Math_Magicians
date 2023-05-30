@@ -2,36 +2,24 @@ body {
   background-color: lightgoldenrodyellow;
 }
 
-.wrapper {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+.input-container {
+  width: 100%;
+  text-align: center;
 }
 
 input {
-  margin-top: 1%;
-  padding-inline: 15%;
-  padding-block: 5%;
+  padding-inline: 3%;
+  padding-block: 1%;
   background-color: grey;
-  width: 28vh;
+  width: 27.4vh;
   font-size: 20px;
   text-align: end;
   font-weight: 600;
 }
 
-.btn-wrapper {
-  margin-top: 1%;
-}
-
 .btn-container {
   height: 40vh;
+  margin: 0 auto;
   width: 40vh;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
