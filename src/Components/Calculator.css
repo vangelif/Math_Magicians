@@ -1,0 +1,50 @@
+body {
+  background-color: lightgoldenrodyellow;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+input {
+  margin-top: 1%;
+  padding-inline: 15%;
+  padding-block: 5%;
+  background-color: grey;
+  width: 28vh;
+  font-size: 20px;
+  text-align: end;
+  font-weight: 600;
+}
+
+.btn-wrapper {
+  margin-top: 1%;
+}
+
+.btn-container {
+  height: 40vh;
+  width: 40vh;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+button {
+  background-color: lightgray;
+}
+
+.math-symbol {
+  background-color: lightsalmon;
+}
+
+.zero {
+  grid-column: span 2;
+}
