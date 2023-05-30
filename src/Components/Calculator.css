@@ -1,0 +1,38 @@
+body {
+  background-color: lightgoldenrodyellow;
+}
+
+.input-container {
+  width: 100%;
+  text-align: center;
+}
+
+input {
+  padding-inline: 3%;
+  padding-block: 1%;
+  background-color: grey;
+  width: 27.4vh;
+  font-size: 20px;
+  text-align: end;
+  font-weight: 600;
+}
+
+.btn-container {
+  height: 40vh;
+  margin: 0 auto;
+  width: 40vh;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+button {
+  background-color: lightgray;
+}
+
+.math-symbol {
+  background-color: lightsalmon;
+}
+
+.zero {
+  grid-column: span 2;
+}

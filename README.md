@@ -35,14 +35,10 @@ By building this application, you will learn how to use React.
 
 ## 🛠️ Built With <a name="built-with"></a>
 
-
-
 ### Tech Stack <a name="tech-stack"></a>
 
 HTML, CSS & JAVASCRIPT
-
 GitHub & Visual Studio Code
-
 React
 
 <!-- Features -->
@@ -60,14 +56,11 @@ React
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-
-
 To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
 In order to run this project you need:
-
 
 Example command:
 
@@ -75,12 +68,10 @@ Example command:
 1.use a browser
 2.use cable internet
 ```
- 
 
 ### Setup
 
 Clone this repository to your desired folder:
-
 
 Example commands:
 
@@ -90,11 +81,9 @@ Example commands:
 
 ```
 
-
 ### Install
 
 Install this project with:
-
 
 Example command:
 
@@ -102,11 +91,9 @@ Example command:
   npm install
 ```
 
-
 ### Usage
 
 To run the project, execute the following command:
-
 
 Example command:
 
@@ -114,11 +101,9 @@ Example command:
  npm run start
 ```
 
-
 ### Run tests
 
 To run tests, run the following command:
-
 
 Example command:
 
@@ -127,7 +112,6 @@ npx hint .
 npx eslint .
 ```
 
-
 ### Deployment
 
 You can deploy this project using:
@@ -135,10 +119,7 @@ You can deploy this project using:
 - Render.com
 - Netlify.com
 
-
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 <!-- AUTHORS -->
 
@@ -151,16 +132,13 @@ You can deploy this project using:
 - [@linkedin](https://www.linkedin.com/in/vangfot/)
 - [@articles](https://vangelis.website/essays)
 
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
- ## 🔭 Future Features
+## 🔭 Future Features
 
 - Add the functionality for the app.🚀
 - Add the testing using react testing library💯
 - Add the final touches for the styling👌
-
 
 <!-- CONTRIBUTING -->
 
