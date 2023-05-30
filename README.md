@@ -38,9 +38,7 @@ By building this application, you will learn how to use React.
 ### Tech Stack <a name="tech-stack"></a>
 
 HTML, CSS & JAVASCRIPT
-
 GitHub & Visual Studio Code
-
 React
 
 <!-- Features -->
