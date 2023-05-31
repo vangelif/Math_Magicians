@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './Calculator.css';
+import PropTypes from 'prop-types';
 import calculate from '../Logic/calculate';
 
 const Calculator = () => {
@@ -15,10 +16,16 @@ const Calculator = () => {
   };
   const Input = () => (
     <div className="input-container">
-      <input type="text" value={next || total || '0'} className="input" />
+      <input
+        type="text"
+        value={next || total || '0'}
+        className="input"
+        readOnly
+      />
     </div>
   );
-  const Buttons = () => (
+
+  const Buttons = ({ handleClicks }) => (
     <>
       <div className="btn-container">
         <button onClick={handleClicks} type="button">
@@ -81,11 +88,15 @@ const Calculator = () => {
       </div>
     </>
   );
+  Buttons.propTypes = {
+    handleClicks: PropTypes.func.isRequired,
+  };
   return (
     <div className="wrapper">
       <Input />
-      <Buttons />
+      <Buttons handleClicks={handleClicks} />
     </div>
   );
 };
+
 export default Calculator;
