@@ -94,7 +94,7 @@ const Calculator = () => {
   Buttons.propTypes = {
     handleClicks: PropTypes.func.isRequired,
   };
-  const category = 'courage';
+  const category = 'family';
 
   return (
     <div className="wrapper">
