@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import './Calculator.css';
 import PropTypes from 'prop-types';
 import calculate from '../Logic/calculate';
-import Quotes from '../Quotes/quotes';
 
 const Calculator = () => {
   const [total, setTotal] = useState(null);
@@ -94,13 +93,11 @@ const Calculator = () => {
   Buttons.propTypes = {
     handleClicks: PropTypes.func.isRequired,
   };
-  const category = 'family';
 
   return (
     <div className="wrapper">
       <Input />
       <Buttons handleClicks={handleClicks} />
-      <Quotes category={category} />
     </div>
   );
 };
