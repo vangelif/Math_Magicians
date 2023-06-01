@@ -20,6 +20,17 @@ const Quotes = ({ category }) => {
     };
     fetchData();
   }, []);
+
+  return (
+    <div>
+      {data.map((item) => (
+        <>
+          <h2>{item.author}</h2>
+          <p>{item.quote}</p>
+        </>
+      ))}
+    </div>
+  );
 };
 Quotes.propTypes = {
   category: PropTypes.string.isRequired,
