@@ -14,6 +14,7 @@ const Calculator = () => {
     setTotal(output.total);
     setOperation(output.operation);
   };
+
   const Input = () => (
     <div className="input-container">
       <input
@@ -88,9 +89,11 @@ const Calculator = () => {
       </div>
     </>
   );
+
   Buttons.propTypes = {
     handleClicks: PropTypes.func.isRequired,
   };
+
   return (
     <div className="wrapper">
       <Input />
