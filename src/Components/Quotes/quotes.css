@@ -3,11 +3,13 @@
   padding-block: 5%;
   padding-inline: 30%;
 }
+
 .loading {
   padding-block: 10%;
   font-weight: 800;
   text-align: center;
 }
+
 .error {
   padding-block: 10%;
   font-weight: 800;
