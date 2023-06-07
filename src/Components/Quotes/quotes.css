@@ -1,7 +1,16 @@
 .quote-wrapper {
   text-align: center;
   padding-block: 5%;
-  padding-inline: 30%;
+  padding-inline: 12%;
+}
+
+h2 {
+  font-size: 60px;
+}
+
+p {
+  font-size: 30px;
+  width: 100%;
 }
 
 .loading {
