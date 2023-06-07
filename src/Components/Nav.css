@@ -1,0 +1,21 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding-inline: 5%;
+}
+
+.logo {
+  font-size: 80px;
+  font-weight: 800;
+}
+
+.nav-ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+  width: 100%;
+}
+
+li {
+  font-size: 30px;
+}
