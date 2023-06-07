@@ -6,7 +6,7 @@ const Quotes = ({ category }) => {
   const [data, setData] = useState([]);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(false);
-  const isInitialRender = useRef(true);
+  // const isInitialRender = useRef(true);
 
   const API_URL = 'https://api.api-ninjas.com/v1/quotes?category=';
   const token = 'T1Y9s/5FzZtrHk7QSF4JIQ==7Ld1PDV8j8SRMOxG';
@@ -29,11 +29,11 @@ const Quotes = ({ category }) => {
         setError(true);
       }
     };
-    if (isInitialRender.current) {
-      isInitialRender.current = false;
-    } else {
-      fetchData();
-    }
+    // if (isInitialRender.current) {
+    //   isInitialRender.current = false;
+    // } else {
+    fetchData();
+    // }
   }, [category]);
 
   return (
