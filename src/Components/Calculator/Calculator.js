@@ -95,10 +95,15 @@ const Calculator = () => {
   };
 
   return (
-    <div className="wrapper">
-      <Input />
-      <Buttons handleClicks={handleClicks} />
-    </div>
+    <>
+      <div className="calc-wrapper">
+        <h2 className="title">Time for some maths!</h2>
+        <div className="wrapper">
+          <Input />
+          <Buttons handleClicks={handleClicks} />
+        </div>
+      </div>
+    </>
   );
 };
 

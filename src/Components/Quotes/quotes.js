@@ -41,9 +41,13 @@ const Quotes = ({ category }) => {
       {data.map((item) => (
         <>
           <h2 key={item.author}>{item.author}</h2>
-          <p key={Math.trunc(Math.random() * 10000)}>{item.quote}</p>
-          <p className="loading">{loading ? 'Loading....' : ''}</p>
-          <p className="error">{error ? 'Houston we have a problem...' : ''}</p>
+          <p key={Math.trunc(Math.random() * 10000)} className="quote-p">
+            {item.quote}
+          </p>
+          <p className="loading">{loading ? 'Loading....🌬️' : ''}</p>
+          <p className="error">
+            {error ? 'Houston we have a problem...🚀🤯' : ''}
+          </p>
         </>
       ))}
     </div>

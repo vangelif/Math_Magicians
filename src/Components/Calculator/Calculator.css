@@ -2,6 +2,19 @@ body {
   background-color: lightgoldenrodyellow;
 }
 
+.calc-wrapper {
+  display: flex;
+}
+
+.title {
+  width: 50%;
+  font-size: 50px;
+}
+
+.wrapper {
+  width: 45%;
+}
+
 .input-container {
   width: 100%;
   text-align: center;
@@ -11,7 +24,7 @@ input {
   padding-inline: 3%;
   padding-block: 1%;
   background-color: grey;
-  width: 27.4vh;
+  width: 35vh;
   font-size: 20px;
   text-align: end;
   font-weight: 600;
