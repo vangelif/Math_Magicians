@@ -34,7 +34,7 @@ const Quotes = ({ category }) => {
     // } else {
     fetchData();
     // }
-  }, [category]);
+  }, []);
 
   return (
     <div key="quotes" className="quote-wrapper">
