@@ -52,6 +52,10 @@ React
 
 <!-- LIVE DEMO -->
 
+## 🚀 Live Demo <a name="live-demo"></a>
+
+- <a href="https://mm-30lf.onrender.com/">Check out the live demo</a>
+
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
